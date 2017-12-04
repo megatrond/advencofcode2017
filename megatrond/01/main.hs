@@ -31,8 +31,6 @@ main = do
 	let l = mySum ints (length ints) 1
 	print "First star answer:"
 	print l
-	-- content2 <- readFile("input.txt")
-	-- let ints2 = map (\x -> read [x]::Int) (trim content2)
 	let l2 = mySum2 ints (length ints) 1
 	print "Second star answer:"
 	print l2
